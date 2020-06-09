@@ -194,6 +194,11 @@ body {
     text-decoration: none;
 }
 
+
+.feacured_product_link:hover {
+    opacity: 0.15;
+}
+
 ._active {
     color: #212121;
     border-bottom: 3px solid #212121;
@@ -596,7 +601,11 @@ body {
 .mail {
     width: 360px;
     height: 28px;
+    background: url(img/arrow.png) no-repeat;
+    background-position: 95% 50%;
 }
+
+
 
 
 .footer_copyright {
@@ -782,34 +791,40 @@ body {
     text-align: center;
     padding-top: 18px;
 }
-.img_product{
+
+.img_product {
     margin-top: 72px;
 }
-.mini_product_pic{
+
+.mini_product_pic {
     padding-left: 5px;
     padding-right: 5px;
 }
-.mini_product{
+
+.mini_product {
     margin-left: 150px;
     margin-top: 1px;
 }
-.product_text{
+
+.product_text {
     width: 499px;
     height: 244px;
     float: right;
     margin-right: 132px;
 }
-.product_main{
+
+.product_main {
     display: inline-block;
 }
 
-.product_text{
+.product_text {
     width: 499px;
     height: 244px;
     float: right;
     margin-right: 132px;
 }
-.product_text_h2{
+
+.product_text_h2 {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
@@ -817,7 +832,8 @@ body {
     text-align: center;
     margin-bottom: 10px;
 }
-.product_hot_deal{
+
+.product_hot_deal {
     color: #e53935;
     font-size: 18px;
     font-weight: 700;
@@ -826,31 +842,37 @@ body {
     text-align: center;
     margin-bottom: 3px;
 }
-.product_hot_cost{
+
+.product_hot_cost {
     color: #212121;
     font-size: 36px;
     font-weight: 300;
     text-transform: uppercase;
     float: left;
 }
-.product_cost{
+
+.product_cost {
     color: #212121;
     font-weight: 300;
     font-size: 72px;
     text-transform: uppercase;
     float: left;
 }
-._1, ._2{
+
+._1,
+._2 {
     margin-top: 35px;
     padding-left: 5px;
     padding-right: 18px;
 }
-.hot_cost{
+
+.hot_cost {
     margin-left: 119px;
     margin-bottom: 20px;
     display: inline-block;
 }
-.button_hot{
+
+.button_hot {
     width: 510px;
     height: 71px;
     line-height: 71px;
@@ -862,19 +884,14 @@ body {
     margin-bottom: 49px;
 }
 
-.button_hot:hover{
+.button_hot:hover {
     background-color: red;
 }
-.product_trend{
+
+.product_trend {
     height: 700px;
 }
-.prod_trending_product{
+
+.prod_trending_product {
     height: 700px;
 }
-
-
-
-
-
-
-
